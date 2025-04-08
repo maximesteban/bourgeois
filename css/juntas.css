@@ -114,13 +114,10 @@
   box-sizing: border-box;
   margin: 0 auto;
   overflow-x: hidden;
-}
-
-
-    align-items: flex-start;
-    padding: 16px 0px;
-    position: relative;
-    flex: 0 0 auto;
+  align-items: flex-start;
+  padding: 16px 0px;
+  position: relative;
+  flex: 0 0 auto;
   }
   
   .tabs-noticias .frame-31 {
