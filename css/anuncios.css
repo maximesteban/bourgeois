@@ -126,8 +126,7 @@ html, body {
   padding: 0px 16px; /* más contenido, menos riesgo */
   box-sizing: border-box;
   width: 100%;
-  max-width: 100%;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
   
@@ -191,10 +190,8 @@ html, body {
     padding: 24px 24px 0px;
     position: relative;
     align-self: stretch;
-    width: 100%;
     flex: 0 0 auto;
     width: 100%;
-    max-width: 100%;
     box-sizing: border-box;
   }
   
@@ -240,7 +237,6 @@ html, body {
     font-size: var(--WF-body-body-extra-small-font-size);
     letter-spacing: var(--WF-body-body-extra-small-letter-spacing);
     line-height: var(--WF-body-body-extra-small-line-height);
-    white-space: nowrap;
     font-style: var(--WF-body-body-extra-small-font-style);
     word-wrap: break-word;
     overflow-wrap: break-word;
