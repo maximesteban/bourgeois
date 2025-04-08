@@ -118,24 +118,6 @@
     width: 100%;
   }
   
-  .tabs-noticias .ad-card1 {
-    align-items: flex-end;
-    align-self: stretch;
-    background-color: #eb6e0726;
-    border: 1px solid;
-    border-color: #0000001a;
-    border-radius: 16px;
-    box-shadow: var(--soft-shadow);
-    display: flex;
-    flex: 0 0 auto;
-    margin-left: -1.00px1;
-    margin-right: -1.00px1;
-    margin-top: -1.00px1;
-    overflow: hidden;
-    padding: 8px;
-    position: relative;
-    width: 100%;
-  }
   
   .tabs-noticias .frame-41 {
     align-items: flex-start;
