@@ -294,4 +294,59 @@
     position: relative;
     width: 16px;
   }
-  
+
+/* 🔧 Corrige el frame-wrapper1 */
+.tabs-noticias .frame-wrapper1 {
+  width: 100%;
+  max-width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+/* 🔧 Evita desbordamientos de contenido */
+.tabs-noticias .frame-31,
+.tabs-noticias .frame-41,
+.tabs-noticias .frame-61,
+.tabs-noticias .p1,
+.tabs-noticias .most-fonts-have-a-wrapper1,
+.tabs-noticias .tab-item,
+.tabs-noticias .android-frame,
+.tabs-noticias .store-item,
+.tabs-noticias .frame,
+.tabs-noticias .div {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* 🔧 Elimina márgenes problemáticos */
+.tabs-noticias .ad-card1,
+.tabs-noticias .ad-card-21 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+/* 🔧 Estabiliza imágenes decorativas */
+.tabs-noticias .close-square1,
+.tabs-noticias .close-square-21,
+.tabs-noticias .img1 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
+/* 🔧 Reemplaza inline-flex problemáticos */
+.tabs-noticias .android-frame,
+.tabs-noticias .store-item,
+.tabs-noticias .frame {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 🔧 Fondo blanco base para test */
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+}
